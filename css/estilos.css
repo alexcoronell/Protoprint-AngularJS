@@ -1,4 +1,26 @@
 html {
   font-size: 16px; }
 
+.colores {
+  width: 250px !important;
+  height: 50px !important; }
+
+.principal {
+  background: #0095d5; }
+
+.azul01 {
+  background: #c2daf1; }
+
+.azul02 {
+  background: #7fb7e3; }
+
+.azul03 {
+  background: #177aae; }
+
+.azul04 {
+  background: #1d4965; }
+
+.azul05 {
+  background: #121c24; }
+
 /*# sourceMappingURL=estilos.css.map */

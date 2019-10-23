@@ -2,12 +2,41 @@
 //   PATRON DE COLORES
 //------------------------------
 $principal:#0095d5;
-$azul01: #324d5b;
-$azul02: #335864;
-$azul03: #2b444f;
-$azul04: #3b5a67;
-$azul05: #324f5f;
-//Copiar colores correctos en Inkscape
+$azul01:#c2daf1;
+$azul02:#7fb7e3;
+$azul03:#177aae;
+$azul04:#1d4965;
+$azul05:#121c24;
 html {
     font-size: 16px;
+}
+
+//TEMPORAL
+.colores {
+    width: 250px !important;
+    height: 50px !important;
+}
+
+.principal {
+    background: $principal;
+}
+
+.azul01 {
+    background: $azul01;
+}
+
+.azul02 {
+    background: $azul02;
+}
+
+.azul03 {
+    background: $azul03;
+}
+
+.azul04 {
+    background: $azul04;
+}
+
+.azul05 {
+    background: $azul05;
 }

@@ -1,0 +1,45 @@
+/*
+Error: Invalid CSS after "    $azul01": expected ":", was ";"
+        on line 25 of G:\git\Protoprint-AngularJS\scss\estilos.scss
+
+20: .principal {
+21:     background: $principal;
+22: }
+23: 
+24: .azul01 {
+25:     $azul01;
+26: }
+27: 
+28: .azul02 {
+29:     $azul02;
+30: }
+
+Backtrace:
+G:\git\Protoprint-AngularJS\scss\estilos.scss:25
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:605:in `variable'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/bin/sass:18:in `load'
+G:/PORTABLE APPS/PortableApps/KoalaPortable/App/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    $azul01\": expected \":\", was \";\"\A         on line 25 of G:\git\Protoprint-AngularJS\scss\estilos.scss\A \A 20: .principal {\A 21:     background: $principal;\A 22: }\A 23: \A 24: .azul01 {\A 25:     $azul01;\A 26: }\A 27: \A 28: .azul02 {\A 29:     $azul02;\A 30: }"; }
