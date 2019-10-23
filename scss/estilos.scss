@@ -118,6 +118,8 @@ html {
 
 #cierre-menulateral {
     background: transparent;
+    font-family: Lato-Bold;
+    font-weight: bolder;
     color: white;
     float: right;
     font-size: 1.2rem;
@@ -128,29 +130,51 @@ html {
 }
 
 #logo-menulateral {
-    width: 180px;
+    width: 90%;
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 #logo-menulateral img {
-    width: 180px;
+    width: 100%;
+}
+
+#logo-menulateral h1 {
+    font-size: 1.4rem;
+}
+
+#logo-menulateral hr {
+    background: $azul03;
 }
 
 #menu-lateral ul {
     list-style: none;
     margin-top: 2rem;
+    text-align: left;
 }
 
 #menu-lateral ul li {
-    margin: 1rem 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 #menu-lateral ul li a {
     font-size: 1.1rem;
     color: white;
     text-decoration: none;
+}
+
+// ----------------------
+//      HEADER - CARRUSEL
+//-----------------------
+header {
+    background: $principal;
+    width: 100%;
+}
+
+.carousel {
+    margin-top: 50px;
 }
 
 //TEMPORAL
