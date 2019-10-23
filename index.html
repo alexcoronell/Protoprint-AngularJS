@@ -25,15 +25,22 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>Inicio</li>
-            <li>La Empresa</li>
-            <li>Servicios</li>
-            <li>Catálogo</li>
-            <li>Contacto</li>
-        </ul>
+    <nav class="navbar fixed-top" id="menu-mobile">
+        <button type="menu" id="boton-menu-mobile" class="text-center fixed-top btn" data-toggle="collapse" data-target="#menu-lateral"><i class="fa fa-bars"></i><p>MENÚ</p></div></button>
     </nav>
+    <div id="menu-lateral" class="collapse dropdown-toggle">
+        <button id="cierre-menulateral" class="btn" data-toggle="collapse" data-target="#menu-lateral">X</button>
+        <div id="logo-menulateral" class="text-center">
+            <img src="img/logo.svg" alt="Logo del Sitio" title="Protoprint | Impresión Digital">
+        </div>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">La Empresa</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Catálogo</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
     <header>
         Aquí irá el slide principal
     </header>
@@ -128,12 +135,20 @@
         <div>
             Desarrollado por Alexander Coronell
         </div>
-        <div class="colores principal"></div>
-        <div class="colores azul01"></div>
-        <div class="colores azul02"></div>
-        <div class="colores azul03"></div>
-        <div class="colores azul04"></div>
-        <div class="colores azul05"></div>
+
+        <!-- Esta área es temporal y solo por mostrar los colores de la página -->
+
+        <div id="cajoncolores">
+            <div id="muestracolores">
+                <div class="colores principal"></div>
+                <div class="colores azul01"></div>
+                <div class="colores azul02"></div>
+                <div class="colores azul03"></div>
+                <div class="colores azul04"></div>
+                <div class="colores azul05"></div>
+            </div>
+        </div>
+        <button class="btn" data-toggle="collapse" data-target="#muestracolores">Mostrar/Ocultar</button>
     </footer>
 
     <!-- Carga de archivos Javascript -->
