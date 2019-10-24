@@ -32,6 +32,22 @@ html {
   font-size: 16px;
   font-family: Lato-Regular; }
 
+h3,
+p {
+  font-family: Lato-LightItalic; }
+
+.titulos-secciones {
+  background: #0095d5;
+  width: 110% !important;
+  height: 4rem;
+  color: white;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-family: Lato-LightItalic; }
+
+.titulos-secciones h2 {
+  margin-top: .7rem; }
+
 #menu-mobile {
   width: 100%;
   height: 50px;
@@ -119,6 +135,15 @@ header {
 
 .carousel {
   margin-top: 50px; }
+
+#sobrenosotros p {
+  font-size: 1.2rem; }
+
+#imagen-sobrenosotros {
+  width: 90%; }
+
+#imagen-sobrenosotros img {
+  width: 95%; }
 
 .colores {
   width: 250px !important;
