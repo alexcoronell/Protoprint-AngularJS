@@ -101,7 +101,7 @@ p {
 
 #logo-menulateral {
   width: 90%;
-  margin-top: 3rem;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto; }
 
@@ -116,7 +116,7 @@ p {
 
 #menu-lateral ul {
   list-style: none;
-  margin-top: 2rem;
+  margin-top: -1rem;
   text-align: left; }
 
 #menu-lateral ul li {
@@ -183,7 +183,7 @@ header {
   background-position: center; }
 
 .servicio5 {
-  background-image: url(../img/diseño3d.jpg);
+  background-image: url(../img/dise├▒o3d.jpg);
   background-size: cover;
   background-position: center; }
 
