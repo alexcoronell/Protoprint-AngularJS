@@ -13,3 +13,10 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
+
+/************************* Iniciamos smoothScroll (Scroll Suave) ****************/
+smoothScroll.init({
+    speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+    offset: 100, // Integer. How far to offset the scrolling anchor location in pixels
+
+});

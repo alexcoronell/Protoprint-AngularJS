@@ -407,9 +407,9 @@ header {
     margin-right: auto !important;
 }
 
-// ----------------------
-//      SECCION CONTACTO
-//-----------------------
+// ---------------------------------------------------------------
+//                      SECCION FOOTER
+//----------------------------------------------------------------
 .seccion-formulario {
     width: 100%;
 }
@@ -427,36 +427,72 @@ header {
     margin: .6rem auto;
 }
 
-//TEMPORAL
-.colores {
-    width: 250px !important;
-    height: 50px !important;
+.seccion-mapas {
+    display: none;
 }
 
-.principal {
+// ---------------------------------------------------------------
+//                      SECCION FOOTER
+//----------------------------------------------------------------
+footer {
+    color: white;
+}
+
+.datos-footer {
     background: $principal;
 }
 
-.azul01 {
-    background: $azul01;
+.datos-footer ul {
+    list-style: none;
+    padding-left: .5rem;
 }
 
-.azul02 {
-    background: $azul02;
+.datos-footer ul li {
+    margin-bottom: .7rem;
+    margin-left: .4rem;
 }
 
-.azul03 {
+.redessociales-footer {
     background: $azul03;
 }
 
-.azul04 {
+.redessociales-footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.redessociales-footer ul li {
+    display: inline;
+}
+
+.redessociales-footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 0 .4rem;
+}
+
+.derechos-footer {
     background: $azul04;
+    padding: .3rem;
 }
 
-.azul05 {
+.volver-arriba {
+    background: $azul02;
+    padding-bottom: 1rem;
+}
+
+.volver-arriba a {
+    text-decoration: none;
+    color: white;
+}
+
+.volver-arriba a i {
+    font-size: 3rem;
+}
+
+.alexcoronell {
     background: $azul05;
-}
-
-#cajoncolores {
-    height: 300px;
 }
