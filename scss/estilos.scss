@@ -69,8 +69,15 @@ html {
 }
 
 h3,
+h4,
+h5,
+h6,
 p {
     font-family: Lato-LightItalic;
+}
+
+h5 {
+    font-size: 1.2rem;
 }
 
 .titulos-secciones {
@@ -398,6 +405,26 @@ header {
 .circulos-infopromociones {
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+// ----------------------
+//      SECCION CONTACTO
+//-----------------------
+.seccion-formulario {
+    width: 100%;
+}
+
+.form-control,
+.seccion-formulario button {
+    width: 90%;
+    //margin-left: auto;
+    //margin-right: auto;
+    margin: 1rem auto;
+}
+
+.seccion-formulario button {
+    background: $principal;
+    margin: .6rem auto;
 }
 
 //TEMPORAL

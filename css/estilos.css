@@ -33,8 +33,14 @@ html {
   font-family: Lato-Regular; }
 
 h3,
+h4,
+h5,
+h6,
 p {
   font-family: Lato-LightItalic; }
+
+h5 {
+  font-size: 1.2rem; }
 
 .titulos-secciones {
   background: #0095d5;
@@ -284,6 +290,18 @@ header {
 .circulos-infopromociones {
   margin-left: auto !important;
   margin-right: auto !important; }
+
+.seccion-formulario {
+  width: 100%; }
+
+.form-control,
+.seccion-formulario button {
+  width: 90%;
+  margin: 1rem auto; }
+
+.seccion-formulario button {
+  background: #0095d5;
+  margin: .6rem auto; }
 
 .colores {
   width: 250px !important;
