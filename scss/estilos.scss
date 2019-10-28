@@ -367,7 +367,7 @@
     }
     
     // ---------------------------------------------------------------
-    //                      SECCION FOOTER
+    //                      SECCION CONTACTANOS
     //----------------------------------------------------------------
     .seccion-formulario {
         width: 100%;
@@ -376,14 +376,13 @@
     .form-control,
     .seccion-formulario button {
         width: 90%;
-        //margin-left: auto;
-        //margin-right: auto;
         margin: 1rem auto;
     }
     
     .seccion-formulario button {
         background: $principal;
         margin: .6rem auto;
+        color: white;
     }
     
     .seccion-mapas {
@@ -463,4 +462,54 @@
     // ---------------------------------------------------------------------------------------------
     @media (min-width: 576px) {}
     
+    .mySlides img {
+        width: 100% !important;
+    }
+    
     @media (min-width: 768px) {}
+    
+    .mySlides img {
+        width: 100% !important;
+    }
+    
+    @media (max-width: 991px) {
+        .titulos-secciones h2 br {
+            display: none;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .secciones {
+            min-height: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .titulos-secciones {
+            min-height: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .titulos-secciones h2 {
+            width: 100%;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            font-size: 2rem;
+        }
+        .servicio-item h3 {
+            font-size: 1.3rem;
+        }
+        .mySlides img {
+            width: 80% !important;
+        }
+        .circulos-infopromociones {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-control,
+        .seccion-formulario button {
+            width: 98%;
+            margin: 1rem 0;
+        }
+    }
