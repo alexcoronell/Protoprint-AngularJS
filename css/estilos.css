@@ -165,46 +165,13 @@ header {
 
 .servicio-item h3 {
   background: rgba(0, 149, 213, 0.7);
-  width: 90%;
+  width: 100%;
   color: white;
-  padding: .7rem 0;
-  margin: auto;
-  position: absolute;
-  top: 40%;
-  overflow: inherit; }
+  padding: .7rem;
+  margin: auto; }
 
 .servicio-item img {
   width: 100%; }
-
-/* .servicio1 {
-    background-image: url(../img/impresiondigital.jpg);
-    background-size: cover;
-    background-position: center;
-} */
-.servicio2 {
-  background-image: url(../img/impresionGranFormato.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.servicio3 {
-  background-image: url(../img/disenografico.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.servicio4 {
-  background-image: url(../img/sublimacion.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.servicio5 {
-  background-image: url(../img/diseno3d.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.servicio6 {
-  background-image: url(../img/render.jpg);
-  background-size: cover;
-  background-position: center; }
 
 /* Slideshow container */
 .slideshow-container {
@@ -299,6 +266,9 @@ header {
 .circulos-infopromociones {
   margin-left: auto !important;
   margin-right: auto !important; }
+
+.mySlides img {
+  width: 100% !important; }
 
 .seccion-formulario {
   width: 100%; }
