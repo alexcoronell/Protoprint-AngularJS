@@ -218,31 +218,43 @@ header {
 // ----------------------
 //      SECCION SERVICIOS
 //-----------------------
+.article-servicio {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .servicio-item {
-    width: 290px;
-    height: 290px;
+    width: 100%;
+    padding: 0;
     border: 1px solid $azul03;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    overflow: hidden;
 }
 
 .servicio-item h3 {
     background: rgba(0, 149, 213, 0.7);
+    width: 90%;
     color: white;
-    padding: .7rem;
+    padding: .7rem 0;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    overflow: inherit;
 }
 
-.servicio1 {
+.servicio-item img {
+    width: 100%;
+}
+
+
+/* .servicio1 {
     background-image: url(../img/impresiondigital.jpg);
     background-size: cover;
     background-position: center;
-}
+} */
 
 .servicio2 {
     background-image: url(../img/impresionGranFormato.jpg);
