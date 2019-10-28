@@ -80,6 +80,7 @@ h5 {
   padding: 0;
   margin-top: -0.35rem;
   margin-left: -0.15rem;
+  font-family: Lato-Black;
   font-size: .6rem; }
 
 #menu-lateral {
@@ -339,6 +340,151 @@ footer {
 .mySlides img {
   width: 100% !important; }
 
+@media (max-width: 767px) {
+  #menu-desktop,
+  #menu-desktop-special {
+    display: none; } }
+@media (min-width: 768px) {
+  #menu-mobile,
+  #menu-lateral {
+    display: none; }
+
+  #menu-desktop {
+    width: 100%;
+    height: 50px;
+    background: #121c24;
+    padding: 0;
+    margin-top: 0;
+    position: fixed;
+    z-index: 9999 !important; }
+
+  #menu-desktop-sombra {
+    width: 100%;
+    height: 50px;
+    background: #121c24;
+    opacity: .5;
+    margin-top: 0px;
+    padding-top: 0;
+    position: fixed;
+    z-index: 9998 !important; }
+
+  .ocultarsombra {
+    display: none; }
+
+  #boton-menu-desktop {
+    width: 100px !important;
+    height: 100px !important;
+    background: #0095d5;
+    color: white;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 0;
+    z-index: 99999 !important; }
+
+  #boton-menu-desktop i {
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem; }
+
+  #boton-menu-desktop p {
+    padding: 0;
+    margin-top: -0.35rem;
+    margin-left: -0.15rem;
+    font-family: Lato-Black;
+    font-size: 1rem; }
+
+  #menu-desktop-special {
+    padding: 0;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 0 !important;
+    margin-left: auto !important;
+    position: fixed;
+    z-index: 99999 !important; }
+
+  #menu-desktop-special ul {
+    margin-left: auto;
+    margin-right: 100px;
+    list-style: none;
+    text-align: center; }
+
+  #menu-desktop-special ul li {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none; }
+
+  #menu-desktop-special ul li a {
+    font-family: Lato-Bold;
+    font-size: 1.2rem;
+    margin: auto;
+    text-decoration: none; }
+
+  #menu-desktop-special #enlace-inicio a,
+  #menu-desktop-special #enlace-laempresa a,
+  #menu-desktop-special #enlace-servicios a {
+    color: #121c24; }
+
+  #menu-desktop-special #enlace-catalogo a,
+  #menu-desktop-special #enlace-contacto a {
+    color: #c2daf1; }
+
+  #menu-desktop-special #enlace-inicio {
+    background: #c2daf1; }
+
+  #menu-desktop-special #enlace-laempresa {
+    background: #7fb7e3; }
+
+  #menu-desktop-special #enlace-servicios {
+    background: #0095d5; }
+
+  #menu-desktop-special #enlace-catalogo {
+    background: #177aae; }
+
+  #menu-desktop-special #enlace-contacto {
+    background: #1d4965; }
+
+  #menu-desktop .menudesktop-scroll {
+    height: 50px;
+    margin-bottom: 0; }
+
+  #menu-desktop .menu-scroll-boton {
+    width: 50px !important;
+    height: 50px !important; }
+
+  #menu-desktop .menu-scroll-boton i {
+    font-size: 1rem;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #menu-desktop .menu-scroll-boton p {
+    padding: 0;
+    margin-top: -0.35rem;
+    margin-left: -0.15rem;
+    font-family: Lato-Black;
+    font-size: .6rem; }
+
+  .reubicarmenu {
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-right: -50px !important;
+    margin-left: auto;
+    position: fixed; }
+
+  .reubicarmenu ul {
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: 50px !important;
+    list-style: none;
+    text-align: center; } }
 .mySlides img {
   width: 100% !important; }
 

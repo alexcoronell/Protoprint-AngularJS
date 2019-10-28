@@ -20,3 +20,27 @@ smoothScroll.init({
     offset: 100, // Integer. How far to offset the scrolling anchor location in pixels
 
 });
+
+/************************* Ocultar sombra de menu ****************/
+$(window).scroll(function() {
+
+    var div = $('#menu-desktop-sombra');
+    var barraMenu = $('#menu-desktop');
+    var buttonMenu = $('#boton-menu-desktop');
+    var menuEspecial = $('#menu-desktop-special');
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 100) {
+        div.addClass("ocultarsombra");
+        barraMenu.addClass("menudesktop-scroll");
+        buttonMenu.addClass("menu-scroll-boton");
+        menuEspecial.addClass("reubicarmenu");
+    } else {
+        div.removeClass("ocultarsombra");
+        barraMenu.removeClass("menudesktop-scroll");
+        buttonMenu.removeClass("menu-scroll-boton");
+        menuEspecial.removeClass("reubicarmenu");
+    }
+});
+
+/************************* Menu Scroll ****************/

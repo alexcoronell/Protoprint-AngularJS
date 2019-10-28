@@ -26,10 +26,12 @@
 
 <body>
     <div id="top-pagina"></div>
+
+    <!-- Menu Mobile -->
     <nav class="navbar fixed-top" id="menu-mobile">
         <button type="menu" id="boton-menu-mobile" class="text-center fixed-top btn" data-toggle="collapse" data-target="#menu-lateral"><i class="fa fa-bars"></i><p>MENÚ</p></div></button>
     </nav>
-    <div id="menu-lateral" class="collapse dropdown-toggle text-center navbar fixed-top">
+    <div id="menu-lateral" class="collapse text-center navbar fixed-top">
         <button id="cierre-menulateral" class="btn" data-toggle="collapse" data-target="#menu-lateral">X</button>
         <div id="logo-menulateral" class="text-center">
             <img src="img/logo.svg" alt="Logo del Sitio" title="Protoprint | Impresión Digital">
@@ -45,7 +47,21 @@
         </ul>
     </div>
 
+    <!-- Menu Desktop -->
+    <nav class="navbar fixed-top text-right" id="menu-desktop">
+        <button type="menu" id="boton-menu-desktop" class="boton-menu-desktop text-center fixed-top btn" data-toggle="collapse" data-target="#menu-desktop-special"><i class="fa fa-bars"></i><p>MENÚ</p></div></button>
+    </nav>
+    <div id="menu-desktop-sombra"></div>
 
+    <div id="menu-desktop-special" class="collapse fade text-center navbar">
+        <ul class="list-group list-group-horizontal">
+            <li id="enlace-inicio"><a href="#">Inicio</a></li>
+            <li id="enlace-laempresa"><a href="#">La Empresa</a></li>
+            <li id="enlace-servicios"><a href="#">Servicios</a></li>
+            <li id="enlace-catalogo"><a href="#">Catálogo</a></li>
+            <li id="enlace-contacto"><a href="#">Contacto</a></li>
+        </ul>
+    </div>
     <!-- Slide Principal -->
 
     <header class="bienvenida">
