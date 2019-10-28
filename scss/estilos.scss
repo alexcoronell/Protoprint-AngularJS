@@ -540,6 +540,7 @@
             margin-right: 100px;
             list-style: none;
             text-align: center;
+            box-shadow: 0 10px 6px -6px #777;
         }
         #menu-desktop-special ul li {
             width: 120px;
@@ -560,9 +561,18 @@
         #menu-desktop-special #enlace-servicios a {
             color: $azul05;
         }
+        #menu-desktop-special #enlace-inicio a:hover,
+        #menu-desktop-special #enlace-laempresa a:hover,
+        #menu-desktop-special #enlace-servicios a:hover {
+            border-bottom: 2px solid $azul05;
+        }
         #menu-desktop-special #enlace-catalogo a,
         #menu-desktop-special #enlace-contacto a {
             color: $azul01;
+        }
+        #menu-desktop-special #enlace-catalogo a:hover,
+        #menu-desktop-special #enlace-contacto a:hover {
+            border-bottom: 2px solid $azul01;
         }
         #menu-desktop-special #enlace-inicio {
             background: $azul01;
