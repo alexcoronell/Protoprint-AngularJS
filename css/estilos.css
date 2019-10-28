@@ -459,9 +459,10 @@ footer {
   #menu-desktop-special #enlace-contacto {
     background: #1d4965; }
 
-  #menu-desktop .menudesktop-scroll {
-    height: 50px;
-    margin-bottom: 0; }
+  .menudesktop-scroll {
+    height: 50px !important;
+    margin-bottom: 0 !important;
+    background: rgba(18, 28, 36, 0.4) !important; }
 
   #menu-desktop .menu-scroll-boton {
     width: 50px !important;
@@ -487,14 +488,22 @@ footer {
     margin-bottom: auto;
     margin-right: -50px !important;
     margin-left: auto;
-    position: fixed; }
+    position: fixed;
+    transition: none !important; }
 
   .reubicarmenu ul {
     margin-top: -50px;
     margin-left: auto;
     margin-right: 50px !important;
     list-style: none;
-    text-align: center; } }
+    text-align: center;
+    z-index: 999999999 !important; }
+
+  .reubicarmenu ul li {
+    opacity: 0.8; }
+
+  .reubicarmenu ul li:hover {
+    opacity: 1 !important; } }
 .mySlides img {
   width: 100% !important; }
 
