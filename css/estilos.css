@@ -360,7 +360,7 @@ footer {
 
   #menu-desktop-sombra {
     width: 100%;
-    height: 50px;
+    height: 50px !important;
     background: #121c24;
     opacity: .5;
     margin-top: 0px;
