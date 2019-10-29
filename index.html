@@ -10,6 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Protoprint | Impresión Digital</title>
 
+    <!-- Carga de JQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+
     <!-- Carga de AngularJS -->
     <script src="js/angular.min.js"></script>
     <script src="js/angular-route.min.js"></script>
@@ -32,21 +35,22 @@
 
 <body>
     <div id="top-pagina"></div>
-    
+
     <div ng-include src=" 'sections/menu.html' "></div>
-    
+
     <div ng-view id="principal-content"></div>
-    
+
     <br>
-    
+
     <div ng-include src=" 'sections/footer.html' "></div>
 
     <!-- Carga de archivos Javascript -->
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/rutas.js"></script>
     <script src="js/main.js"></script>
+
+
 </body>
 
 </html>
