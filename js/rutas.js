@@ -9,7 +9,7 @@
          when('/servicios', {
              templateUrl: 'pages/servicios.html',
          }).
-         when('/catalogos', {
+         when('/catalogo', {
              templateUrl: 'pages/catalogo.html',
          }).
          when('/contacto', {
